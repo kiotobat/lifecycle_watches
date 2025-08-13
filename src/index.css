@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+}
+
+html {
+  font-size: 18px;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  max-width: 1200px;
+  min-height: 100vh;
+  margin: 0 auto;
+  padding: 20px;
+
+}
+
+input {
+  border: 1px solid #333;
+  font-size: inherit;
+  outline: none;
+}
+
+button {
+  border: 1px solid #333;
+  font-size: inherit;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+ol,
+ul {
+  list-style-type: none;
+}
